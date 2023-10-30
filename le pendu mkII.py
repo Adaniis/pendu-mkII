@@ -142,6 +142,9 @@ while jeu :
         print ("On à dit entre 1 et 3 ")
     if diff == "1" and C_1 == 5 or diff == "2" and C_2 == 6 or diff == "3" and C_3 == 5:
         print(f"le niveau {diff} est terminée")
+    if C_1 == 5 and C_2 == 5 and C_3 == 5 :
+        print("vous avec battus tous les niveau")
+        jeu = False 
         
    
 
